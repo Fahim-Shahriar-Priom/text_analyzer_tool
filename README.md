@@ -1,5 +1,5 @@
 # text_analyzer_tool
-
+make changes to env to connect to your database 
 create table 
 
 CREATE TABLE `text_analyzer` (
