@@ -1,1 +1,14 @@
 # text_analyzer_tool
+
+create table 
+
+CREATE TABLE `text_analyzer` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `text` VARCHAR(255) NOT NULL,
+  `created_by` VARCHAR(45) NOT NULL DEFAULT 'admin',
+  `create_date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`));
+
+
+run text command 
+npm test -- --detectOpenHandles
