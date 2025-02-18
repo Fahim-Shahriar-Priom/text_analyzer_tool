@@ -12,3 +12,6 @@ CREATE TABLE `text_analyzer` (
 
 run text command 
 npm test -- --detectOpenHandles
+
+run the project
+pm2 start / node index.js 
